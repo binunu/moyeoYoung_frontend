@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+<img width="350" alt="로고" src="readme_images/Group 65.png"> 
+ 
+<br> 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> 온/오프라인 청년공간 제공 웹사이트(프론트엔드 레포지토리)
+> 
+> 개발기간 : 2023. 06.20~ 2023.07.27
+> 
+> 5인 팀프로젝트
+>
+> [백엔드 레포지토리로 이동](https://github.com/binunu/moyeoYoung_backend)
 
-## Available Scripts
+<br>
+<br>
 
-In the project directory, you can run:
+## 📖 Description  
+"모여young"은 카공족들이 사회적인 시선과 편견을 받지 않고
 
-### `npm start`
+오프라인에서 자유롭게 공부하고 활동할 수 있는 **서울시의 청년공간을 소개**하고
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+오프라인 공간 뿐 아니라 **온라인 공간인 모임방 활동**을 통해
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+프로젝트나 취미 등 청년들이 함께 경험을 나눌 수 있는 공간을 제공하는 사이트입니다. 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
+<br>
 
-### `npm run build`
+## 🐤 Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  
+<img width="400" alt="모여영1" src="readme_images/모여영1.png"> <img width="400" alt="모여영2" src="readme_images/모여영2.png">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br> 
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="400" alt="모여영3" src="readme_images/모여영3.png"> <img width="400" alt="모여영4" src="readme_images/모여영4.png">
 
-### `npm run eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width="400" alt="모여영5" src="readme_images/모여영5.png"><img width="400" alt="모여영6" src="readme_images/모여영6.png">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
+<br>
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⭐ Main Feature
+**1. 오프라인 청년공간 검색**
+   - 서울시 청년몽땅정보통 페이지 크롤링
+  
+**2. 오픈 TALK**
+   - 웹소켓을 사용해 실시간 사이트 접속 유저간 채팅 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**3. 온라인 모임방 개설 및**
+   - 방장 권한으로 공개/비공개 방 설정에 따른 가입 및 모임방 내 게시글 조회 접근 제한
+   - 각 모임방의 게시글 쓰기(멤버만)
+   - 투두리스트 및 피드
+  
 
-## Learn More
+<br>
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔧 Stack
+- **framework** : springboot, react
+  
+- **language** : html, css, js, java
+  
+- **db** : mySQL
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **IDE** : sts, vscode
+  
+- **tool** : git, figma, google excel, notion, erd cloud
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
